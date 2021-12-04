@@ -1,0 +1,3 @@
+/home/nick/esprog/CMakeFiles/rebuild_cache.dir
+/home/nick/esprog/CMakeFiles/edit_cache.dir
+/home/nick/esprog/CMakeFiles/SIR_Simulation.out.dir
