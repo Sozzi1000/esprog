@@ -5,8 +5,19 @@
 #include <iomanip>
 
 struct Data {                      
-    int Susc_, Inf_, Dead_, Heal_, Recov_, Immunity_, VStart_, VMax_, NewSusc_;  
-    double Beta_, Gamma_, HIndex_, VIndex_;          
+    int Susc_;
+    int Inf_;
+    int Dead_;
+    int Heal_;
+    int Recov_;
+    int Immunity_;
+    int VStart_;
+    int VMax_;
+    int NewSusc_;  
+    double Beta_
+    double Gamma_;
+    double HIndex_;
+    double VIndex_;          
     char Already_;                         // è se la pandemia è già in corso o se è all'inizio.
 };
 
