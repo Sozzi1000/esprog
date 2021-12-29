@@ -14,7 +14,7 @@ struct Data {
     int VStart_;
     int VMax_;
     int NewSusc_;  
-    double Beta_
+    double Beta_;
     double Gamma_;
     double HIndex_;
     double VIndex_;          
