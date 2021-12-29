@@ -86,7 +86,7 @@ class Contagi {
             state.Susc_ += states.NewSusc_ - NewInf_ - NewVac_;
             state.Inf_ += NewInf_ - NoInf_;
             state.Recov_ += NoInf_ - states.NewSusc_ + NewVac_; 
-            state.Dead_ += NoInf_ - NewHeal_;         // l è una frazione di k, quindi sempre minore. Io (Stefano) so cosa intendo.
+            state.Dead_ += NoInf_ - NewHeal_;         // l è una frazione di k, quindi sempre minore. Io (Stefanoo) so cosa intendo.
             state.Heal_ += NewHeal_ - states.NewSusc_ + NewVac_;
             state.NewSusc_ = states.NewSusc_;
 
